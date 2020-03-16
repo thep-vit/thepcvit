@@ -1,0 +1,238 @@
+/* Containers */
+.containter-fluid-trans,
+.jumbotron{
+	background: transparent;
+}
+
+.noshow {
+
+}
+.cont-large {
+	width: 97%;
+	margin-top:1em;
+}
+
+
+/* Buttons */
+.btn {
+	background: rgb(186,33,187);
+	background: linear-gradient(139deg, rgba(186,33,187,1) 0%, rgba(32,55,215,1) 100%);
+	color: #fff;
+	padding: 1em 2em 1em 2em;
+	font-family: HelveticaNeue-CondensedBold;
+	border: none;
+}
+.btn:hover {
+	background: rgb(186,33,187);
+	background: linear-gradient(139deg, rgba(186,33,187,1) 0%, rgba(32,55,215,1) 100%);
+	animation-name: bounce;
+	animation-duration: 0.2s;
+	animation-iteration-count: 2;
+	animation-delay: 0.05s;
+}
+
+/* Navbar */
+/* Jumbotron */
+.jumbo-text-left {
+	align-content: center;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 5em;
+}
+.jumbo-text-left-subtitle {
+	align-content: center;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 2em;
+}
+.jumbo-img {
+	width:95%;
+}
+.jumbo-disp {
+	height: 40em;
+	margin-top: 10em;
+	background-image: url(jumbo-bg-1.jpg);
+	background-size: auto;
+
+}
+/* Background-colors */
+.bg-dark {
+	background-color: #222f3e!important;
+}
+.bg-light{
+	background-color:#ebebeb!important;
+}
+.bg-grey{
+	background-color: #303030;
+	/*background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);*/
+	color:#fff;
+}
+.bg-blue {
+	background: rgb(34,90,195);
+	background: linear-gradient(137deg, rgba(34,90,195,1) 0%, rgba(45,253,221,1) 100%);
+	color: #fff;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.bg-red {
+	background: rgb(187,14,115);
+	background: linear-gradient(137deg, rgba(187,14,115,1) 0%, rgba(253,29,29,1) 50%, rgba(250,112,38,1) 100%);
+	color: #fff;
+}
+.bg-green {
+	background: rgb(34,230,55);
+	background: linear-gradient(137deg, rgba(34,230,55,1) 0%, rgba(5,139,184,1) 100%);
+	color: #fff;
+}
+.bg-purple {
+	background: rgb(186,33,187);
+	background: linear-gradient(139deg, rgba(186,33,187,1) 0%, rgba(32,55,215,1) 100%);
+	color: #fff;
+}
+.bg-white {
+	color: #000;
+}
+.bg-black {
+	background-color: #141414;
+	/*background: rgb(24,24,24);
+	background: radial-gradient(rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);*/
+	color:#fff;
+}
+.bg-trans {
+	background-color: transparent;
+}
+.bg-dark-grey {
+	color: #fff;
+	background-color: #1c1c1c;
+}
+/* Cards */
+.card {
+	border: none;
+	min-height: 20em;
+	height: auto;
+	margin-top: 1em;
+	padding: 1em;
+}
+.card-cont {
+	margin: 3em;
+}
+.card-header {
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+	background: none;
+	border: none;
+	margin-top: -0.8em;
+}
+.card-text {
+	font-family: HelveticaNeue-light;
+	font-size: 2em;
+	margin-top: 1em;
+}
+.card-img {
+	max-width: 70%;
+	height: auto;
+}
+.card-news {
+	height: auto;
+	min-height: 20em;
+}
+.card-text-news {
+	font-family: HelveticaNeue-light;
+	font-size: 1em;
+}
+.card-header-news {
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 2em;
+	background: none;
+	border: none;
+}
+/* footer */
+.footer {
+	margin-bottom: -1em;
+	margin-top: 1em;
+	padding: 1em;
+	vertical-align: center;
+}
+.mobile-link {
+	pointer-events: none;
+	height: auto;
+	color: #fff;
+}
+/* Trending */
+.trend-left {
+	color: #42e0f5;
+	opacity: 0.5;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+}
+.trend-right {
+	padding-left: 8px;
+	color: #ff2003;
+	opacity: 0.5;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+}
+.trend-center{
+	color: #fff;
+	padding-left: 4px;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+	opacity: 1;
+	z-index: 1;
+}
+/* Animations */
+@keyframes bounce {
+	from {color: #fff; transform: rotate(2deg);}
+	to {color: #000; transform: rotate(-2deg);}
+}
+/* Responsive */
+@media screen and (max-width: 800px){
+	.body {
+		color: red;
+	}
+	.edition-primary {
+		font-size: 4em;
+	}
+	.jumbo-divider {
+		font-size: 2em!important;
+	}
+	.jumbo-disp {
+		margin-top: 6em;
+	}
+	.navbar {
+		padding: 1em;
+	}
+	.jumbo-text-left{
+		font-size: 3.7em;
+		color: red;
+	}
+	.jumbo-text-left-subtitle{
+		font-size: 1.7em;
+	}
+	.card-img{
+		display: none;
+	}
+	.card-text,
+	.card-header {
+		font-size: 2em;
+	}
+	.mobile-link{
+		pointer-events: all;
+	}
+	.mobile-link:hover{
+		text-decoration: none;
+		color: #fff;
+		animation-name: bounce;
+		animation-duration: 0.1s;
+		animation-iteration-count: 2;
+		animation-delay: 0.05s;
+	}
+	.card-btn {
+		display: none;
+	}
+
+}
