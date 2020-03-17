@@ -158,6 +158,16 @@
 	pointer-events: none;
 	height: auto;
 	color: #fff;
+	text-decoration: none;
+}
+.mobile-link:hover {
+	pointer-events: none;
+	height: auto;
+	color: #fff;
+	text-decoration: none;
+}
+a .mobile-link {
+	display: hidden;
 }
 /* Trending */
 .trend-left {
