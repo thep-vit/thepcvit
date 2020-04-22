@@ -33,6 +33,7 @@ h6 {
 .page-section {
   padding: 100px 0;
   background-color: #000;
+  color: #ffffff;
 }
 
 .page-section h2.section-heading {
@@ -748,4 +749,7 @@ background: linear-gradient(255deg, rgba(255,0,0,1) 0%, rgba(255,0,146,1) 50%, r
   background: linear-gradient(328deg, rgba(186,33,187,1) 0%, rgba(32,55,215,1) 100%) !important;
   text-decoration: none !important;
   color: #fff;
+}
+#external{
+  color: #000000 !important;
 }
