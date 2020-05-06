@@ -40,7 +40,6 @@ h6 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
-  
 }
 
 .page-section h3.section-subheading {
@@ -735,8 +734,7 @@ background: linear-gradient(255deg, rgba(255,0,0,1) 0%, rgba(255,0,146,1) 50%, r
    color: black;
 }
 .img-logo {
-  margin-top: 10em;
-  width: 20em;
+  width: 25em;
 }
 .card-logo {
   border: 1px;
@@ -754,10 +752,4 @@ background: linear-gradient(255deg, rgba(255,0,0,1) 0%, rgba(255,0,146,1) 50%, r
 }
 #external{
   color: #000000 !important;
-}
-
-.row{
-  width: 100vw;
-  /* overflow-y: hidden; */
-  
 }
