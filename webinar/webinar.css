@@ -78,10 +78,11 @@ a{
   }
 
 .btn{
-    padding: 4px 16px;
+    padding: 12px 40px;
     border-radius: 20px;
     border: none;
     background-color: #66B3FF;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -94,6 +95,10 @@ a{
     font-weight: bolder !important;
 }
 @media(max-width: 700px){
+.btn{
+    padding: 8px 14px;
+}
+
     .cards .card p{
         display: none;
     }

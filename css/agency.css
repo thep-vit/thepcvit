@@ -770,3 +770,11 @@ background: linear-gradient(255deg, rgba(255,0,0,1) 0%, rgba(255,0,146,1) 50%, r
 .row-logo::after, ::before {
   box-sizing: border-box;
 }
+
+.col-sm-12 a{
+  text-decoration: none;
+}
+
+.col-sm-6 a{
+  text-decoration: none;
+}
