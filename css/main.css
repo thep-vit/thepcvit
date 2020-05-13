@@ -91,7 +91,7 @@
 	color: #fff;
 }
 .bg-white {
-	color: #000;
+	color: #000 !important;
 	background-color: #fff;
 }
 .bg-black {

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url('../img/webinar.jpeg');
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    padding: 20px 0 0 40px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.landing-main{
+    align-self: center;
+    margin: 16% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.landing-main h1{
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+.landing-main h3{
+    margin-left: 10px;
+}
+
+.landing-main .lead{
+    margin-left: 10px;
+    font-size: 2em;
+    padding: 20px 0 100px 0 ;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 30% 30% ;
+    grid-template-rows: 30% 30% ;
+    grid-gap: 140px;
+    
+}
+
+.logo{
+    width: 8%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 40px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.btn{
+    padding: 4px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #66B3FF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:disabled{
+    color: red;
+    font-weight: bolder;
+}
+
+.cards .card h1{
+    font-weight: bolder !important;
+}
+@media(max-width: 700px){
+    .cards .card p{
+        display: none;
+    }
+    .landing-main h1{
+        font-size: 3em;
+    }
+    .landing-main .lead{
+        font-size: 1.4em;
+    }
+    .landing-main{
+        margin: 30% 0 0 10%;
+    }
+
+    .cards{
+        margin-top: 20%;
+        grid-template-columns: 44% 44%;
+        grid-template-rows: 40% 40%;
+        grid-gap: 30px;
+    }
+    .logo{
+        width: 20%;
+    }
+}
