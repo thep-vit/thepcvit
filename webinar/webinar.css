@@ -57,7 +57,6 @@ a{
     grid-template-columns: 30% 30% ;
     grid-template-rows: 30% 30% ;
     grid-gap: 140px;
-    
 }
 
 .logo{
@@ -71,6 +70,7 @@ a{
     height: fit-content;
     border-radius: 20px;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -114,9 +114,9 @@ a{
 
     .cards{
         margin-top: 20%;
-        grid-template-columns: 44% 44%;
-        grid-template-rows: 40% 40%;
-        grid-gap: 30px;
+        grid-template-columns: 80% ;
+        grid-template-rows: min-content;
+        grid-gap: 1px;
     }
     .logo{
         width: 20%;
