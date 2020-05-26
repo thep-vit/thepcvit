@@ -700,3 +700,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .img-logo {
   width: 25em;
 }
+
+.single-line{
+  font-size: 45px;
+}
