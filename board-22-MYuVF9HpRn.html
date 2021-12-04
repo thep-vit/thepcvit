@@ -13,21 +13,15 @@
 </head>
 <body onload="load_rick()">
     <button id="res_button" onclick="manageclick()">Show Results</button>
-    <p id="test"></p>
-     <video controls autoplay id="rick">
-        <source src="./img/team/9convert.com - Rick Astley  Never Gonna Give You Up Official Music Video_v240P.mp4" type="video/mp4">
+     <video controls id="rick">
+        <source src="./img/team/vid.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <!-- <audio controls autoplay>
-        <source src="./img/team/[YTHUB.CC] Rick Astley - Never Gonna Give You Up (Official Music Video)-128k.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio> -->
 </body>
 </html>
 
 <script>
     function manageclick(){
-        document.getElementById('rick').autoplay = true;
         sessionStorage.setItem("reloading", "true");
         location.reload();
     }
@@ -39,8 +33,8 @@
     function load_rick(){
         var reloading = sessionStorage.getItem("reloading");
         if (reloading) {
+            document.getElementById('rick').autoplay = true;
             sessionStorage.removeItem("reloading");
-            document.getElementById('test').innerHTML = "true";
             document.getElementById('rick').style.display = "block";
             document.getElementById('res_button').style.display = none;
         }
