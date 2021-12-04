@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEPC Board '22</title>
+    <style>
+        #rick {
+            display: none;
+        }
+    </style>
+</head>
+<body onload="load_rick()">
+    <button id="res_button" onclick="manageclick()">Show Results</button>
+    <p id="test"></p>
+     <video controls autoplay id="rick">
+        <source src="./img/team/9convert.com - Rick Astley  Never Gonna Give You Up Official Music Video_v240P.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- <audio controls autoplay>
+        <source src="./img/team/[YTHUB.CC] Rick Astley - Never Gonna Give You Up (Official Music Video)-128k.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> -->
+</body>
+</html>
+
+<script>
+    function manageclick(){
+        document.getElementById('rick').autoplay = true;
+        sessionStorage.setItem("reloading", "true");
+        location.reload();
+    }
+    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    function load_rick(){
+        var reloading = sessionStorage.getItem("reloading");
+        if (reloading) {
+            sessionStorage.removeItem("reloading");
+            document.getElementById('test').innerHTML = "true";
+            document.getElementById('rick').style.display = "block";
+            document.getElementById('res_button').style.display = none;
+        }
+    }
+</script>
