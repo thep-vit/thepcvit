@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THEPC Board '22</title>
     <style>
+        body {
+            display:flex; flex-direction:column; justify-content:center;
+            min-height:100vh;
+        }
         #rick {
             display: none;
+        }
+        .btn {
+            margin: auto;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
         }
     </style>
 </head>
 <body onload="load_rick()">
-    <button id="res_button" onclick="manageclick()">Show Results</button>
+    <button class="btn" id="res_button" onclick="manageclick()">Show Results</button>
      <video controls id="rick">
         <source src="../img/team/vid.mp4" type="video/mp4">
         Your browser does not support the video tag.
