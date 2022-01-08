@@ -154,6 +154,7 @@ img::-moz-selection {
     border: none;
     background-color: transparent;
   }
+  
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
