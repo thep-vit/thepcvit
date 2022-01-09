@@ -12,6 +12,13 @@
 	margin-top:1em;
 }
 
+.alumni-nav{
+	background-color: #000 !important;
+}
+
+body {
+	background-color: #000 !important;
+}
 
 /* Buttons */
 .btn {
